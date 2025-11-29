@@ -67,7 +67,7 @@ return(
 <h3 className="CardName" > {element.title}</h3>
 <p className="Price"> {element.price}</p>
 <button type="button" className="AddRemove" onClick={()=>HandlePurchase(element.id)}> Purchase</button>
-<button type="button" className="AddRemove" onClick={()=>setCartCount(CartCount-1)}> Remove</button>
+
  </div>
 
   </>
