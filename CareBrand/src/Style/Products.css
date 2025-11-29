@@ -1,0 +1,123 @@
+
+.CardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  padding: 40px 20px;
+  background-color: #f7f3ef; 
+  border: none;
+  margin-top: 170px;
+
+}
+
+.Card {
+  width: 260px;
+  background: #fff;
+  border-radius: 18px;
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08); 
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: 1px solid #e8e2db; 
+}
+
+.Card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+
+.Card-img {
+  width: 100%;
+  height: 230px;
+  object-fit: contain;
+  border-radius: 12px;
+  background-color: #faf6f2;
+  padding: 10px;
+}
+
+
+.CardName {
+  color: #2e2e2e;
+  font-weight: 600;
+  font-size: 17px;
+  margin-top: 10px;
+  min-height: 50px;
+}
+
+
+.Price {
+  color: #618c6c; 
+  font-weight: 600;
+  margin: 6px 0 12px 0;
+}
+
+
+.cart-btn {
+  width: 100%;
+  background-color: #000;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.cart-btn:hover {
+  background-color: #333;
+}
+
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+
+.IDButton {
+  width: 30px;
+  height: 30px;
+  background-color: #f2e8dc;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  color: #555;
+  transition: 0.2s;
+}
+
+.IDButton:hover {
+  background-color: #e5d9ce;
+}
+
+
+.Qty {
+  width: 34px;
+  height: 30px;
+  border-radius: 8px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  text-align: center;
+  line-height: 30px;
+  font-weight: 600;
+  color: #333;
+}
+.Loading{
+    color: black;
+    text-align: center;
+}
+.AddRemove{
+    width: 100px;
+   
+    margin-left: 15px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: gray;
+    font-weight: 600;
+  font-size: 16px;
+  color: black;
+}

@@ -1,0 +1,65 @@
+*{
+  background-color: #F6EFEA;
+}
+
+.HeaderImage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+ width: 1460px;
+margin-top: 70px;
+}
+#Image{
+
+ width: 1100px;
+ height: 500px;
+ margin-top: 80px;
+ border-radius: 30px;
+ box-shadow: 10px 10px 49px  lightgray ;
+ /* position: relative; */
+}
+#HeaderPar{
+ border: 2px solid black;
+ color: black;
+ position: absolute;
+ width: 800px;
+ height: 170px;
+ margin-top: 300px;
+ /* opacity: 0.5; */
+ background-color: rgba(255, 255, 255, 0.5); 
+ font-family: "Playfair Display", serif;   
+  font-size: 38px;
+  font-weight: 600;
+  letter-spacing: 1px;
+ text-align: center;
+ padding-top: 30px;
+  
+}
+#shop{
+
+
+background: none;
+color:#6f7b69 ;
+ font-family: "Playfair Display", serif;   
+  font-size: 38px;
+  font-weight: 600;
+  letter-spacing: 1px;
+ text-align: center;
+ margin-top: 0px;
+
+}
+.Button{
+  position: absolute;
+  bottom: 130px;
+  width: 200px;
+  height: 40px;
+  font-family: "Playfair Display", serif;   
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+.Button :hover{
+  background-color: #92A18A;
+color:#F8F4ED ;
+}

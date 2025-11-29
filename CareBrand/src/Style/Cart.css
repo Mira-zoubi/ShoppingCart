@@ -1,0 +1,113 @@
+
+.CartContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  width: 1100px;
+  
+  max-width: 900px;
+margin-top: 200px;
+margin-left: 30px;
+  padding: 10px;
+}
+
+
+.ProductCartContainer {
+  display: grid;
+  grid-template-columns: 100px 1fr 90px 120px;
+  align-items: center;
+  background: #ffffff;
+ 
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.07);
+  gap: 20px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.ProductCartContainer:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+
+.CartProductImage {
+  width: 100%;
+  height: 100px;
+  object-fit: contain;
+}
+
+
+.CartProductTitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin: 0;
+}
+
+
+.CartProductPrice {
+  font-size: 17px;
+  font-weight: 600;
+  color: #d14c70;
+  margin: 0;
+}
+
+
+.Increase-Button,
+.Decrease-Button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.15s ease;
+}
+.Buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.Increase-Button {
+  background-color: #92A18A  ;
+  color: #fff;
+}
+
+.Increase-Button:hover {
+  background-color: gray;
+}
+
+.Increase-Button:active {
+  transform: scale(0.92);
+}
+
+
+.Decrease-Button {
+  background-color: #c3c3c3;
+  color: #fff;
+}
+
+.Decrease-Button:hover {
+  background-color: #9e9e9e;
+}
+
+.Decrease-Button:active {
+  transform: scale(0.92);
+}
+
+/* Quantity number */
+.ProductCartContainer p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: #444;
+  margin: 0;
+}
+.EmptyCart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 500px;
+    color: black;
+}

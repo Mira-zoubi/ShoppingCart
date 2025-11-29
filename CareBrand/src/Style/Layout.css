@@ -1,0 +1,44 @@
+.HomeContainer{
+  border: 10px solid #F8F4ED;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 15%;
+box-shadow: 10px 10px 49px gray ;
+  background-color: #F8F4ED;
+}
+#Title{
+  color: #92A18A;
+  /* text-shadow:10px 10px 49px #C7A56A; */
+  margin-left :30px;
+
+}
+.NavLinks{
+  /* border: 2px solid black; */
+  display: flex;
+  gap: 40px;
+  margin-right: 40px;
+  padding-top: 45px;
+}
+.nav-btn{
+
+    padding: 10px 20px;
+    height: 20px;
+  background-color: #333;
+  color: #C7A56A;
+  border-radius: 100px;
+  text-decoration: none;
+  font-weight: bold;
+  border: none;
+  background-color:#F8F4ED;
+box-shadow: 10px 10px 49px  lightgray ;
+ 
+}
+.nav-btn:hover{
+background-color: #92A18A;
+color:#F8F4ED ;
+
+}
+
